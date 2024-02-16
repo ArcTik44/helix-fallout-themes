@@ -1,0 +1,53 @@
+#Author: Simon Hyksa <https://github.com/ArcTik44>
+
+"type" = {fg = "california_gold"}
+"type.builtin" = { fg = "california_gold" }
+"string" = { fg = "california_gold" }
+"constructor" = { fg = "platinum_chip" }
+"constant" = { fg = "vault_blue" }
+"function" = {fg = "platinum_chip", modifiers = ["bold"]}
+
+#Interface
+"ui.background" = { bg = "background" }
+"ui.cursor" = { bg = "pale", fg = "background" }
+"ui.cursor.match" = { fg = "hazmat_yellow" }
+"ui.linenr" = { fg = "california_gold" }
+"ui.linenr.selected" = { fg = "pale" }
+"ui.statusline" = { fg = "california_gold", bg = "black" }
+"ui.statusline.normal" = { fg = "california_gold", bg = "black" }
+"ui.statusline.insert" = { fg = "pale", bg = "black"} 
+"ui.statusline.select" = { fg = "hazmat_yellow", bg = "black" }
+"ui.cursorline.primary" = { bg = "black" }
+"ui.popup" = { fg = "california_gold", bg = "background" }
+"ui.window" = { fg = "luxor" }
+"ui.help" = { fg = "california_gold", bg = "background"}
+"ui.text" = { fg = "california_gold" }
+"ui.text.focus" = { bg = "background", fg = "pale" }
+"ui.text.info" = { fg = "california_gold" }
+"ui.virtual.whitespace" = { fg = "#08341B" }
+"ui.virtual.ruler" = { bg = "#041B0E" }
+"ui.virtual.indent-guide" = { fg = "#08341B" }
+"ui.menu" = { fg = "california_gold", bg = "background" }
+"ui.menu.selected" = { bg = "platinum_chip", fg = "background" }
+"ui.selection" = { bg = "#1B0334" }
+"ui.selection.primary" = { bg = "desert_maroon" }
+"warning" = { fg = "vapor_yellow" }
+"error" = { fg = "dynamite_red", modifiers = ["bold"] }
+"info" = { fg = "california_gold", modifiers = ["bold"] }
+"hint" = { fg = "california_gold", modifiers = ["bold"] }
+"diagnostic.hint" = { underline = {color = "dynamite_red", style = "curl" } }
+"diagnostic.info" = { underline = {color = "california_gold", style = "curl" } }
+"diagnostic.warning" = { underline = {color = "luxor", style = "curl" } }
+"diagnostic.error" = { underline = {color = "dynamite_red", style = "curl" } }
+"ui.bufferline" = { fg = "gray", bg = "background" }
+"ui.bufferline.active" = { fg = "pale", bg = "darkgray" }
+
+
+[palette]
+luxor = "#AB8D3F"
+background = "#444444"
+california_gold = "#FDB515"
+pale = "#FFDE6C"
+platinum_chip = "#E5E4E2"
+dynamite_red = "#a2443e"
+vault_blue = "#447ab9"
